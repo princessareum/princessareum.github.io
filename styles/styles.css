@@ -62,6 +62,9 @@ p,h3, input, textarea {
   margin-left: 30px
 }
 
+#secret {
+  color: #ff83bd;
+}
 
 /*content border*/
 
@@ -372,6 +375,117 @@ footer {
     width: 50px;
 
   }
+
+
+
+
+/*piano*/
+
+.container1 {
+  text-align: center;
+  position: relative;
+  margin-top: 150px;
+}
+
+.container2 {
+  text-align: center;
+  position: relative;
+}
+
+
+.white-keys-container{
+    border-left: 2px solid black;
+    text-align: center;
+    height:154px;
+    overflow: hidden;
+    display: inline-block;
+
+}
+.white-keys{
+    width: 40px;
+    height: 150px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    text-align: center;
+    position:relative;
+    float:left;
+    z-index: 1;
+ }
+
+ .white-keys span{
+     position: absolute;
+     bottom:0;
+     right:0;
+     left:0;
+     margin:auto;
+     z-index: 3;
+ }
+
+
+
+ .black-keys-container {
+   height: 130px;
+   position: relative;
+   top: -150px;
+   /*left: 410px;*/
+
+ }
+
+ .black-keys span{
+     position: relative;
+     bottom:0;
+     right:0;
+     left:0;
+     margin:auto;
+     z-index: 3;
+ }
+
+.black-keys {
+    width: 30px;
+    height: 80px;
+    border: 2px solid black;
+    background: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    top:-4px;
+    right:-16px;
+    z-index: 100;
+    margin-left: 8px;
+}
+
+#fake1, #fake2 {
+  visibility: hidden;
+}
+
+
+
+
+/*drums*/
+
+.drumsContainer {
+  height: 300px;
+  margin-left: 30px;
+  margin-top: -120px;
+}
+
+#hiHat, #snare, #kick, #crash {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+
+
+
+
+
+
 
 }
 

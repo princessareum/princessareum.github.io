@@ -23,5 +23,10 @@ angular.module('app', [ 'firebase','ui.router'])
         templateUrl: 'pages/contactus.html'
       })
 
+      .state('secret', {
+        url: '/secret',
+        templateUrl: 'pages/secret.html'
+      })
+
       $urlRouterProvider.otherwise('/');
   })
