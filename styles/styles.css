@@ -16,6 +16,10 @@ p,h3, input, textarea {
 
 /*Nav and Header*/
 
+#secret {
+  visibility: hidden;
+}
+
 .header {
   width: 100%;
   text-align: center;
@@ -62,9 +66,6 @@ p,h3, input, textarea {
   margin-left: 30px
 }
 
-#secret {
-  color: #ff83bd;
-}
 
 /*content border*/
 
@@ -256,6 +257,13 @@ footer {
 /*media query*/
 
 @media screen and (min-width: 600px){
+
+
+  #secret {
+    color: #ff83bd;
+    visibility: visible;
+  }
+
   .header h1{
     font-size: 40px;
   }
