@@ -53,80 +53,80 @@ $(document).ready(function() {
 ////////////////////////////////////////////////////////////////////
         $('.white-keys-container').on("click", function(event){
            var key = event.target.id;
-           var audio = audioElement.setAttribute('src', 'notes/keys/'+key+'.wav');
+           var audio = audioElement.setAttribute('src', 'notes/keys/'+key+'.mp3');
            playnotewhite("#"+key,audio);
         });
 
         $('.black-keys-container').on("click", function(event){
           // console.log(event);
            var key = event.target.id;
-           var audio = audioElement.setAttribute('src', 'notes/keys/'+key+'.wav');
+           var audio = audioElement.setAttribute('src', 'notes/keys/'+key+'.mp3');
            playnoteblack("#"+key,audio);
         });
 
 
         // $('#c1').on("click", function() {
-        //   var audio = audioElement.setAttribute('src', 'notes/keys/C3.wav');
+        //   var audio = audioElement.setAttribute('src', 'notes/keys/C3.mp3');
         //   playnotewhite("#c1", audio);
         // });
         //
         // $('#csharp').on("click", function() {
-        //   var audio = audioElement.setAttribute('src', 'notes/keys/Db3.wav');
+        //   var audio = audioElement.setAttribute('src', 'notes/keys/Db3.mp3');
         //   playnoteblack("#csharp", audio);
         // });
         //
         // $('#d').on("click", function() {
-        //   var audio = audioElement.setAttribute('src', 'notes/keys/D3.wav');
+        //   var audio = audioElement.setAttribute('src', 'notes/keys/D3.mp3');
         //   playnotewhite("#d", audio);
         // });
         //
         // $('#dsharp').on("click", function() {
-        //   var audio = audioElement.setAttribute('src', 'notes/keys/Eb3.wav');
+        //   var audio = audioElement.setAttribute('src', 'notes/keys/Eb3.mp3');
         //   playnoteblack("#dsharp", audio);
         // });
         //
         // $('#e').on("click", function() {
-        //   var audio = audioElement.setAttribute('src', 'notes/keys/E3.wav');
+        //   var audio = audioElement.setAttribute('src', 'notes/keys/E3.mp3');
         //   playnotewhite("#e", audio);
         // });
         //
         // $('#f').on("click", function() {
-        //   var audio = audioElement.setAttribute('src', 'notes/keys/F3.wav');
+        //   var audio = audioElement.setAttribute('src', 'notes/keys/F3.mp3');
         //   playnotewhite("#f", audio);
         // });
         //
         // $('#fsharp').on("click", function() {
-        //   var audio = audioElement.setAttribute('src', 'notes/keys/Gb3.wav');
+        //   var audio = audioElement.setAttribute('src', 'notes/keys/Gb3.mp3');
         //   playnoteblack("#fsharp", audio);
         // });
         //
         // $('#g').on("click", function() {
-        //   var audio = audioElement.setAttribute('src', 'notes/keys/G3.wav');
+        //   var audio = audioElement.setAttribute('src', 'notes/keys/G3.mp3');
         //   playnotewhite("#g", audio);
         // });
         //
         // $('#gsharp').on("click", function() {
-        //   var audio = audioElement.setAttribute('src', 'notes/keys/Ab3.wav');
+        //   var audio = audioElement.setAttribute('src', 'notes/keys/Ab3.mp3');
         //   playnoteblack("#gsharp", audio);
         // });
         //
         // $('#a').on("click", function() {
-        //   var audio = audioElement.setAttribute('src', 'notes/keys/A3.wav');
+        //   var audio = audioElement.setAttribute('src', 'notes/keys/A3.mp3');
         //   playnotewhite("#a", audio);
         // });
         //
         // $('#asharp').on("click", function() {
-        //   var audio = audioElement.setAttribute('src', 'notes/keys/Bb3.wav');
+        //   var audio = audioElement.setAttribute('src', 'notes/keys/Bb3.mp3');
         //   playnoteblack("#asharp", audio);
         // });
         //
         // $('#b').on("click", function() {
-        //   var audio = audioElement.setAttribute('src', 'notes/keys/B3.wav');
+        //   var audio = audioElement.setAttribute('src', 'notes/keys/B3.mp3');
         //   playnotewhite("#b", audio);
         // });
         //
         // $('#c2').on("click", function() {
-        //   var audio = audioElement.setAttribute('src', 'notes/keys/C4.wav');
+        //   var audio = audioElement.setAttribute('src', 'notes/keys/C4.mp3');
         //   playnotewhite("#c2", audio);
         // });
 
@@ -139,70 +139,70 @@ $(document).ready(function() {
 
 
           if(key == "65"){
-          // var audio = audioElement.setAttribute('src', 'notes/keys/c1.wav');
-          var audio = new Audio('notes/keys/c1.wav').play()
+          // var audio = audioElement.setAttribute('src', 'notes/keys/c1.mp3');
+          var audio = new Audio('notes/keys/c1.mp3').play()
 
           playnotewhite("#c1", audio);
           }
           if(key == "87"){
-          // var audio = audioElement.setAttribute('src', 'notes/keys/csharp.wav');
-          var audio = new Audio('notes/keys/csharp.wav').play()
+          // var audio = audioElement.setAttribute('src', 'notes/keys/csharp.mp3');
+          var audio = new Audio('notes/keys/csharp.mp3').play()
 
           playnoteblack("#csharp", audio);
           }
           if(key == "83"){
-          // var audio = audioElement.setAttribute('src', 'notes/keys/d.wav');
-          var audio = new Audio('notes/keys/d.wav').play()
+          // var audio = audioElement.setAttribute('src', 'notes/keys/d.mp3');
+          var audio = new Audio('notes/keys/d.mp3').play()
           playnotewhite("#d", audio);
           }
           if(key == "69"){
-          // var audio = audioElement.setAttribute('src', 'notes/keys/dsharp.wav');
-          var audio = new Audio('notes/keys/dsharp.wav').play()
+          // var audio = audioElement.setAttribute('src', 'notes/keys/dsharp.mp3');
+          var audio = new Audio('notes/keys/dsharp.mp3').play()
           playnoteblack("#dsharp", audio);
           }
           if(key == "68"){
-          // var audio = audioElement.setAttribute('src', 'notes/keys/e.wav');
-          var audio = new Audio('notes/keys/e.wav').play()
+          // var audio = audioElement.setAttribute('src', 'notes/keys/e.mp3');
+          var audio = new Audio('notes/keys/e.mp3').play()
           playnotewhite("#e", audio);
           }
           if(key == "70"){
-          // var audio = audioElement.setAttribute('src', 'notes/keys/f.wav');
-          var audio = new Audio('notes/keys/f.wav').play()
+          // var audio = audioElement.setAttribute('src', 'notes/keys/f.mp3');
+          var audio = new Audio('notes/keys/f.mp3').play()
           playnotewhite("#f", audio);
           }
           if(key == "84"){
-          // var audio = audioElement.setAttribute('src', 'notes/keys/fsharp.wav');
-          var audio = new Audio('notes/keys/fsharp.wav').play()
+          // var audio = audioElement.setAttribute('src', 'notes/keys/fsharp.mp3');
+          var audio = new Audio('notes/keys/fsharp.mp3').play()
           playnoteblack("#fsharp", audio);
           }
           if(key == "71"){
-          // var audio = audioElement.setAttribute('src', 'notes/keys/g.wav');
-          var audio = new Audio('notes/keys/g.wav').play()
+          // var audio = audioElement.setAttribute('src', 'notes/keys/g.mp3');
+          var audio = new Audio('notes/keys/g.mp3').play()
           playnotewhite("#g", audio);
           }
           if(key == "89"){
-          // var audio = audioElement.setAttribute('src', 'notes/keys/gsharp.wav');
-          var audio = new Audio('notes/keys/gsharp.wav').play()
+          // var audio = audioElement.setAttribute('src', 'notes/keys/gsharp.mp3');
+          var audio = new Audio('notes/keys/gsharp.mp3').play()
           playnoteblack("#gsharp", audio);
           }
           if(key == "72"){
-          // var audio = audioElement.setAttribute('src', 'notes/keys/a.wav');
-          var audio = new Audio('notes/keys/a.wav').play()
+          // var audio = audioElement.setAttribute('src', 'notes/keys/a.mp3');
+          var audio = new Audio('notes/keys/a.mp3').play()
           playnotewhite("#a", audio);
           }
           if(key == "85"){
-          // var audio = audioElement.setAttribute('src', 'notes/keys/asharp.wav');
-          var audio = new Audio('notes/keys/asharp.wav').play()
+          // var audio = audioElement.setAttribute('src', 'notes/keys/asharp.mp3');
+          var audio = new Audio('notes/keys/asharp.mp3').play()
           playnoteblack("#asharp", audio);
           }
           if(key == "74"){
-          // var audio = audioElement.setAttribute('src', 'notes/keys/b.wav');
-          var audio = new Audio('notes/keys/b.wav').play()
+          // var audio = audioElement.setAttribute('src', 'notes/keys/b.mp3');
+          var audio = new Audio('notes/keys/b.mp3').play()
           playnotewhite("#b", audio);
           }
           if(key == "75"){
-          // var audio = audioElement.setAttribute('src', 'notes/keys/c2.wav');
-          var audio = new Audio('notes/keys/c2.wav').play()
+          // var audio = audioElement.setAttribute('src', 'notes/keys/c2.mp3');
+          var audio = new Audio('notes/keys/c2.mp3').play()
           playnotewhite("#c2", audio);
           }
         });

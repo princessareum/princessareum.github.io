@@ -24,7 +24,7 @@ angular.module('app').controller('drumsCtrl', function($scope){
 
       $('.drumsContainer').on("click", function(event){
          var key = event.target.id;
-         var audio = audioElement.setAttribute('src', 'notes/drums/'+key+'.wav');
+         var audio = audioElement.setAttribute('src', 'notes/drums/'+key+'.mp3');
          playDrums("#"+key,audio);
       });
 
@@ -32,23 +32,23 @@ angular.module('app').controller('drumsCtrl', function($scope){
       $(document).on("keydown", function(e) {
         var key = e.which;
         if(key == "77"){
-        // var audio = audioElement.setAttribute('src', 'notes/drums/hiHat.wav');
-        var audio = new Audio('notes/drums/hiHat.wav').play()
+        // var audio = audioElement.setAttribute('src', 'notes/drums/hiHat.mp3');
+        var audio = new Audio('notes/drums/hiHat.mp3').play()
         playDrums("#hiHat", audio);
         }
         if(key == "188"){
-        // var audio = audioElement.setAttribute('src', 'notes/drums/snare.wav');
-        var audio = new Audio('notes/drums/snare.wav').play()
+        // var audio = audioElement.setAttribute('src', 'notes/drums/snare.mp3');
+        var audio = new Audio('notes/drums/snare.mp3').play()
         playDrums("#snare", audio);
         }
         if(key == "190"){
-        // var audio = audioElement.setAttribute('src', 'notes/drums/kick.wav');
-        var audio = new Audio('notes/drums/kick.wav').play()
+        // var audio = audioElement.setAttribute('src', 'notes/drums/kick.mp3');
+        var audio = new Audio('notes/drums/kick.mp3').play()
         playDrums("#kick", audio);
         }
         if(key == "191"){
-        // var audio = audioElement.setAttribute('src', 'notes/drums/crash.wav');
-        var audio = new Audio('notes/drums/crash.wav').play()
+        // var audio = audioElement.setAttribute('src', 'notes/drums/crash.mp3');
+        var audio = new Audio('notes/drums/crash.mp3').play()
         playDrums("#crash", audio);
         }
       })
@@ -56,3 +56,4 @@ angular.module('app').controller('drumsCtrl', function($scope){
   })
 
 })
+
